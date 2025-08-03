@@ -21,6 +21,9 @@
 #navbar {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    width: 99vw;
+    position:sticky
 
 }
 
