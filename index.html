@@ -20,7 +20,7 @@
         <ul>
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#services"> services</a></li>
-            <li class="item"><a href="#">about us</a></li>
+            <li class="item"><a href="#client-section">about us</a></li>
             <li class="item"><a href="#contact">contact us</a></li>
 
 
@@ -105,6 +105,15 @@
             copyright &copy; www.MyonlineMeal.com.All Right reserved|
         </div>
     </footer>
+    <!-- Order Now Modal -->
+<div id="orderForm" style="display:none; position:fixed; top:20%; left:50%; transform:translateX(-50%); background:white; padding:20px; border-radius:15px; box-shadow:0 0 15px rgba(0,0,0,0.3); z-index:999;">
+    <h2 style="margin-bottom: 15px;">Place Your Order</h2>
+    <input type="text" id="orderItem" placeholder="Food Item" style="margin-bottom: 10px; width: 100%; padding: 8px;"><br>
+    <input type="number" id="orderQty" placeholder="Quantity" style="margin-bottom: 10px; width: 100%; padding: 8px;"><br>
+    <button onclick="placeOrder()" class="btn">Submit</button>
+    <button onclick="closeOrderForm()" class="btn" style="background-color: grey;">Cancel</button>
+</div>
+<script src="script.js"></script>
 
 </body>
 
